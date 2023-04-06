@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 mt-sm" *ngFor="let comic of allComics | async">
+                <app-comic [comic]="comic">
+
+                </app-comic>
+        </div>
+    </div>
+
+</div>

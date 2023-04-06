@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="row">
+         
+            <div class="col-md-4 mt-sm" *ngFor="let compra of allCompras | async">
+                    <app-compra [compra]="compra" >
+
+                    </app-compra>
+            </div>
+         
+    </div>
+</div>
